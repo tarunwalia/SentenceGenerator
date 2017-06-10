@@ -5,7 +5,7 @@ Created on Jun 10, 2017
 '''
 from random import randint
 class SentenceGen:
-    inputString = "Tarun bad is walia good and boy"
+    inputString = "boy Tarun good a walia good is bad"
     def stringGenerator(self):
         stringSplit = self.inputString.split()
         len1 = len(stringSplit)
